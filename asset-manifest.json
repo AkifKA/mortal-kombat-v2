@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mortal-kombat-v2/static/css/main.e449a579.css",
+    "main.js": "/mortal-kombat-v2/static/js/main.745ad9f4.js",
+    "static/media/mortal-kombat-logo.jpeg": "/mortal-kombat-v2/static/media/mortal-kombat-logo.c874c830204c3250239f.jpeg",
+    "index.html": "/mortal-kombat-v2/index.html",
+    "main.e449a579.css.map": "/mortal-kombat-v2/static/css/main.e449a579.css.map",
+    "main.745ad9f4.js.map": "/mortal-kombat-v2/static/js/main.745ad9f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e449a579.css",
+    "static/js/main.745ad9f4.js"
+  ]
+}
