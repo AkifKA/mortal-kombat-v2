@@ -963,7 +963,8 @@ const data = [
   },
   {
     name: "Kung Jin",
-    img: "https://static.wikia.nocookie.net/mkwikia/images/f/f1/Kotal_mk11.png",
+    img:
+      "https://static.wikia.nocookie.net/mkwikia/images/6/69/Kung_Jin_RENDER.png",
     desc:
       "Kung Jin is the nephew of Kung Lao and is a playable character in Mortal Kombat X. Kung Jin made his debut in Mortal Kombat X, serving as one of the protagonists in the game's Story Mode.",
     gender: "Male",
