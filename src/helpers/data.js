@@ -392,8 +392,7 @@ const data = [
     gender: "Male",
     origin: "Earthrealm (Sydney, Australia)",
     resides: "Earthrealm",
-    gif:
-      "https://static.wikia.nocookie.net/mkwikia/images/5/52/Fujinmkmszsprite.gif",
+    gif: "",
     species: "Human",
   },
 
