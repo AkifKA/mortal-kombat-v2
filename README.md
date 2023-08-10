@@ -1,34 +1,39 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+#  MAK Mortal Kombat All Characters Procject
 
+In the this project, a web application for displaying information about Mortal Kombat characters is created. The application allows users to search for specific characters and view details about each character, including their name, image, description, gender, origin, residence, species, and a GIF animation.
+
+## Technologies Used:
+1. React: The project is built using React, a JavaScript library for building user interfaces. React allows for the creation of reusable components, making the application more organized and maintainable.
+2. React Bootstrap: React Bootstrap is used as a UI framework to provide pre-styled components and layouts. It simplifies the process of building responsive and visually appealing user interfaces.
+3. CSS: Cascading Style Sheets (CSS) is used to style the components and layout of the application. The provided index.css file contains custom styles for various elements.
+4. react-transition-group: The "react-transition-group" library is used to create animations in the application, specifically for the flip effect of the character cards when they are clicked.
+
+## Project Overview:
+The project is divided into several components, each serving a specific purpose:
+1. App.js: This is the main component of the application. It imports the "Header" and "CardContainer" components from their respective files and renders them inside a "Container" component.
+2. Header.jsx: This component displays the Mortal Kombat logo and a title for the application.
+3. CardContainer.jsx: This component handles the display of character cards. It includes a search bar where users can input characters' names to filter the displayed cards. It imports the "CharacterCards" component and iterates through the "data" array (imported from the "data.js" file) to create and display character cards dynamically based on the search input.
+4. CharacterCards.jsx: This component represents an individual character card. It uses the "CSSTransition" component from the "react-transition-group" library to create a flip animation effect between the front and back of the card. Clicking on the card triggers the flip animation, revealing character details on the back side.
+5. data.js: This file contains an array of 96 character objects, each representing the data of a Mortal Kombat character. This data includes name, image URL, description, gender, origin, residence, species, and GIF URL. 
+6. index.css: This CSS file contains custom styles for various elements in the application, including the overall layout and styling of the character cards.
 <br>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjQwazhtbmhoM2pzc2ExYXptYmF1Njltb3g0aDdxOXc1MG95c3Z6bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tIDiDV9W90meCzZZuY/giphy.gif" align="center" width="800">
 
-# Project-002: NBA Legends App (RP-02)
 
-## Description
 
-Project aims to create a Languages Cards App.
-
-## Problem Statement
-
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
 
 ## Project Skeleton
 
 ```
-002-NBA Legends(folder)
-|
-|----readme.md         # Given to the students (Definition of the project)
-SOLUTION
 ├── public
 │     └── index.html
 ├── src
 │    ├── components
 │    │       ├── Header.js
 │    │       ├── CardContainer.js
-│    │       └── PlayerCard.js
+│    │       └── CharacterCard.js
 │    ├── helper
-│    │       └── data.js
+│    │       └── data.js (includes 96 Objects in an array)
 │    ├── assets.js
 │    │       └── [images]
 │    ├── App.js
@@ -39,53 +44,5 @@ SOLUTION
 └── yarn.lock
 ```
 
-## Expected Outcome
 
-![Project 002 Snapshot](nba-legends.gif)
 
-## Objective
-
-Build a NBA Legends App using ReactJS.
-
-### At the end of the project, following topics are to be covered;
-
-- HTML
-
-- CSS
-
-- JS
-
-- ReactJS
-
-### At the end of the project, students will be able to;
-
-- improve coding skills within HTML & CSS & JS & ReactJS.
-
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Steps to Solution
-
-- Step 1: Create React App using `npx create-react-app nba-legends`
-
-- Step 2: Build NBA Legends app using [data.js](data.js), images in [assets](./assets/) folder.
-
-- Step 4: Push your application into your own public repo on Github
-
-- Step 5: Add project gif to your project and README.md file.
-
-## Deployment Notes
-
-1. There should be only one lock file `package-lock.json` or `yarn.lock`.
-2. There shouldn't be any warnings in your application.
-3. If you have deployed your app to github pages before, you should remove `homepage` property from `package.json`.
-
-You can use any of these sites for deployment
-
-- https://www.netlify.com/
-- https://vercel.com/
-- https://render.com/
-- https://app.cyclic.sh/
-
-- You can add additional functionalities to your app.
-
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
